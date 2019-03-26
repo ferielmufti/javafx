@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane id="AnchorPane" prefHeight="516.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.AddReclamationController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextArea fx:id="comment" layoutX="223.0" layoutY="342.0" prefHeight="64.0" prefWidth="200.0" promptText="tell us why you think this way" />
+      <Button fx:id="addBtn" layoutX="299.0" layoutY="435.0" mnemonicParsing="false" onAction="#addBtn" text="Submit" />
+      <Rating fx:id="ratingSchedule" layoutX="231.0" layoutY="66.0" />
+      <Rating fx:id="ratingLogistic" layoutX="231.0" layoutY="137.0" />
+      <Rating fx:id="ratingRH" layoutX="231.0" layoutY="207.0" />
+      <Rating fx:id="ratingSalary" layoutX="232.0" layoutY="282.0" />
+      <Text layoutX="231.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate the salary : " />
+      <Text layoutX="231.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate the HR department : " />
+      <Text layoutX="231.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate the resources : " />
+      <Text layoutX="231.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate the schedule : " />
+    </children>
+</AnchorPane>
